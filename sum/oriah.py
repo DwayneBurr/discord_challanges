@@ -1,18 +1,4 @@
-# DG
-# def sum(n):
-#     total = 0
-#     for i in range(n + 1):
-#         total += i
-#     return total
-# print(sum(15))
+def number_sum(n):
+    return sum(range(1, n + 1))
 
-#Tobi    
-# def Sum(n):
-#     return sum(i for i in range(n + 1))
-# print(Sum(15))
-
-#OV
-# def number_sum(n):
-#     return sum(range(1, n + 1))
-
-# print(number_sum(15))
+print(number_sum(15))
